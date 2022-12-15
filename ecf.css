@@ -1,0 +1,208 @@
+body{
+    width: screen;
+}
+
+/* style de mon header */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2%;
+    margin-right: 12%;
+}
+
+
+.imgLogo {
+    width: 20%;
+    height: 20%;
+}
+
+ul {
+    display: flex;
+    padding: 0%;
+}
+
+
+li {
+    display: flex;
+    margin-left: 30%;
+    color: #FF6F61;
+    font-size: large;
+    font-weight: bold;
+}
+
+.cont {
+    color: black;
+}
+
+
+/* style de ma premiere section (zone de float) */
+
+.imageFond {
+    width: 100%;
+    margin-bottom: -40%;
+}
+
+#btnRecette {
+    width: 15%;
+    margin-left: 50%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF6F61;
+    color: #fff;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.intro {
+    padding-bottom: 35%;
+    margin-left: 35%;
+    color: #FF6F61;
+    z-index: 100;
+    background-color: #fff;
+}
+
+/* style de ma deuxième section */
+
+h1 {
+    padding-bottom: 2%;
+    text-align: center;
+    color: #FF6F61;
+    box-shadow: 1px 5px 5px gray;
+}
+
+
+/* style des images des recettes */
+
+.mesrecettes {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-left: 10%;
+}
+
+.mesQuatre{
+    display: flex;
+    
+}
+
+
+.monVisu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1%;
+    width: 20%;
+}
+
+.nameRecette {
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #FF6F61;
+    border-radius: 3px;
+    color: #FF6F61;
+    text-align: center;
+}
+
+.pictureRecette {
+    margin-bottom: 10px;
+    width: 150px;
+    height: 150px;
+    background-size: contain;
+}
+
+
+/* style de ma deuxieme section */
+
+h2 {
+    width: 95%;
+    font-size: larger;
+    padding-left: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: #fff;
+    border-radius: 0px 0px 8px 0px;
+    background-color: #FF6F61;
+}
+
+.titre {
+    text-align: center;
+    margin-top: -10px;
+}
+
+.separation {
+    border-bottom: 1px solid gray;
+}
+
+
+
+
+h3 {
+    text-align: center;
+    padding-top: 2%;
+    color: #fff;
+}
+
+.intitule {
+    color: #FFDAD6;
+    margin-right: 1%;
+}
+
+.coordonneesContact {
+    display: flex;
+    padding: 1%;
+}
+
+.inputContact {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gauche {
+    margin-left: 5%;
+    align-content: center;
+}
+
+input {
+    border: none;
+    border-radius: 3px;
+}
+
+.zoneMessage {
+    display: flex;
+}
+
+#submit {
+    margin-right: 2%;
+    height: 6%;
+    cursor: pointer;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    background-color: #FF6F61;
+    color: #fff;
+}
+
+
+/* style du footer */
+
+footer {
+    margin-top: 1%;
+    background-color: #FF6F61;
+    padding-bottom: 1%;
+}
+
+#fin {
+    margin-top: 3%;
+    text-align: center;
+    color: #fff;
+    font-size: x-small;
+}
+
+
+
+
+
+

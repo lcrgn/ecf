@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECF</title>
+    <link rel="stylesheet" href="ecf.css">
+    <script src="ecf.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+
+        <div class="monlogo">
+            <img class="imgLogo" src="./toque.png" alt="toque de chef en tant que logo">
+        </div>
+
+        <div class="monmenu">
+            <nav>
+                <ul>
+                    <li>Accueil</li>
+                    <li>Recettes</li>
+                    <li class="cont">Contact</li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <section>
+
+        <img class="imageFond" src="./cuisine.jpg"
+            alt="plan de travail de cuisine avec un ordinateur proposant une recette et les ustenciles / ingrédients à c oté">
+        <button id="btnRecette">Les Recettes</button>
+
+        <div class="intro">Pour que cuisiner sain, reste un plaisir</div>
+
+    </section>
+
+    <section>
+
+        <h1>Recettes</h1>
+        
+        <p>Vos plats du Lundi au Dimanche + un bonus... À vos ustenciles, prêts ? cuisinez !</p>
+
+        <div class="mesrecettes">
+            <div class="mesQuatre">
+                <div class="monVisu">
+                    <div class="pictureRecette"></div>
+                    <div class="nameRecette"></div>
+                </div>
+
+                <div class="monVisu">
+                    <div class="pictureRecette pictureRecette2"></div>
+                    <div class="nameRecette nameRecette2"></div>
+                </div>
+
+                <div class="monVisu">
+                    <div class="pictureRecette pictureRecette3"></div>
+                    <div class="nameRecette nameRecette3"></div>
+                </div>
+
+                <div class="monVisu">
+                    <div class="pictureRecette pictureRecette4"></div>
+                    <div class="nameRecette nameRecette4"></div>
+                </div>
+
+            </div>
+
+            <div class="mesQuatre">
+                <div class="monVisu">
+                    <div class="pictureRecette pictureRecette5"></div>
+                    <div class="nameRecette nameRecette5"></div>
+                </div>
+
+                <div class="monVisu">
+                    <div class="pictureRecette pictureRecette6"></div>
+                    <div class="nameRecette nameRecette6"></div>
+                </div>
+
+                <div class="monVisu">
+                    <div class="pictureRecette pictureRecette7"></div>
+                    <div class="nameRecette nameRecette7"></div>
+                </div>
+
+                <div class="monVisu">
+                    <div class="pictureRecette pictureRecette8"></div>
+                    <div class="nameRecette nameRecette8"></div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="sec2">
+
+        <h2>Vos recettes et viandes préférées</h2>
+
+        <div class="separation"></div>
+        <div class="titre">
+            <div>Recettes</div>
+        </div>
+
+        <div class="recettesPreferees">
+
+            <div class="visuel">
+                <div class="imgRecettePref"></div>
+                <div class="nomRecettePref"></div>
+            </div>
+
+            <div class="visuel">
+                <div class="imgRecettePref"></div>
+                <div class="nomRecettePref"></div>
+            </div>
+
+            <div class="visuel">
+                <div class="imgRecettePref"></div>
+                <div class="nomRecettePref"></div>
+            </div>
+
+        </div>
+
+        <div class="separation"></div>
+        <div class="titre">
+            <div>Viandes</div>
+        </div>
+        <div class="viandesPref">
+
+            <div class="visuelViandes">
+                <div class="imgViandePref"></div>
+                <div class="nomViandePref"></div>
+            </div>
+
+            <div class="visuelViandes">
+                <div class="imgViandePref"></div>
+                <div class="nomViandePref"></div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+
+        <h3>Contactez nous</h3>
+
+        <div class="inputContact">
+
+            <div class="gauche">
+
+                <div class="coordonneesContact">
+                    <div class="intitule">Nom</div>
+                    <input type="text">
+                </div>
+
+                <div class="coordonneesContact">
+                    <div class="intitule">Prénom</div>
+                    <input type="text">
+                </div>
+
+                <div class="coordonneesContact">
+                    <div class="intitule">Mail</div>
+                    <input type="text">
+                </div>
+
+            </div>
+
+            <div class="zoneMessage">
+
+                <div class="intitule">Message</div>
+                <input type="text">
+            </div>
+
+            <button id="submit">Envoyer</button>
+
+        </div>
+
+        <p id="fin">ECF 2022 LR</p>
+
+    </footer>
+
+    <!-- api : https://www.themealdb.com/api/json/v1/1/search.php?s= -->
+
+
+
+</body>
+
+</html>
