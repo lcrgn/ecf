@@ -1,5 +1,6 @@
-body{
-    width: screen;
+body {
+    display: flex;
+    flex-direction: column;
 }
 
 /* style de mon header */
@@ -55,6 +56,7 @@ li {
     color: #fff;
     font-weight: bold;
     font-size: larger;
+    cursor: pointer;
 }
 
 .intro {
@@ -79,14 +81,12 @@ h1 {
 
 .mesrecettes {
     display: flex;
-    flex: 1;
     flex-direction: column;
     margin-left: 10%;
 }
 
-.mesQuatre{
+.mesQuatre {
     display: flex;
-    
 }
 
 
@@ -94,6 +94,8 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    align-content: center;
+    margin-right: 1%;
     padding-bottom: 1%;
     width: 20%;
 }
@@ -114,6 +116,31 @@ h1 {
     background-size: contain;
 }
 
+.mesIngredientsDosages {
+    display: flex;
+    background-color: #FF6F61;
+    border-radius: 3px;
+    margin-top: 1%;
+}
+
+.mesingredients {
+    margin-top: 1%;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
+}
+
+.mesdosages {
+    padding-right: 1%;
+    margin-top: 1%;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
+}
 
 /* style de ma deuxieme section */
 
@@ -200,9 +227,3 @@ footer {
     color: #fff;
     font-size: x-small;
 }
-
-
-
-
-
-
