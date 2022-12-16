@@ -2,7 +2,7 @@ fetch('https://www.themealdb.com/api/json/v1/1/random.php')
     .then(response => response.json())
     .then(json => {
 
-        document.querySelector(".pictureRecette").style.backgroundImage += "url('" + json.meals[0].strMealThumb + "')"        
+        document.querySelector(".pictureRecette").style.backgroundImage += "url('" + json.meals[0].strMealThumb + "')"
         document.querySelector(".nameRecette").innerHTML += json.meals[0].strMeal
         document.querySelector(".ingredients").innerHTML = json.meals[0].strIngredient1
         document.querySelector(".ingredients2").innerHTML = json.meals[0].strIngredient2
@@ -45,13 +45,13 @@ fetch('https://www.themealdb.com/api/json/v1/1/random.php')
         document.querySelector(".dosage18").innerHTML = json.meals[0].strMeasure18
         document.querySelector(".dosage19").innerHTML = json.meals[0].strMeasure19
         document.querySelector(".dosage20").innerHTML = json.meals[0].strMeasure20
-})
+    })
 
 fetch('https://www.themealdb.com/api/json/v1/1/random.php')
     .then(response => response.json())
     .then(json => {
 
-        document.querySelector(".pictureRecette2").style.backgroundImage += "url('" + json.meals[0].strMealThumb + "')"        
+        document.querySelector(".pictureRecette2").style.backgroundImage += "url('" + json.meals[0].strMealThumb + "')"
         document.querySelector(".nameRecette2").innerHTML += json.meals[0].strMeal
 
         document.querySelector(".ingredients21").innerHTML = json.meals[0].strIngredient1
@@ -95,13 +95,13 @@ fetch('https://www.themealdb.com/api/json/v1/1/random.php')
         document.querySelector(".dosage38").innerHTML = json.meals[0].strMeasure18
         document.querySelector(".dosage39").innerHTML = json.meals[0].strMeasure19
         document.querySelector(".dosage40").innerHTML = json.meals[0].strMeasure20
-})
+    })
 
 fetch('https://www.themealdb.com/api/json/v1/1/random.php')
     .then(response => response.json())
     .then(json => {
 
-        document.querySelector(".pictureRecette3").style.backgroundImage += "url('" + json.meals[0].strMealThumb + "')"        
+        document.querySelector(".pictureRecette3").style.backgroundImage += "url('" + json.meals[0].strMealThumb + "')"
         document.querySelector(".nameRecette3").innerHTML += json.meals[0].strMeal
 
         document.querySelector(".ingredients41").innerHTML = json.meals[0].strIngredient1
@@ -145,13 +145,13 @@ fetch('https://www.themealdb.com/api/json/v1/1/random.php')
         document.querySelector(".dosage58").innerHTML = json.meals[0].strMeasure18
         document.querySelector(".dosage59").innerHTML = json.meals[0].strMeasure19
         document.querySelector(".dosage60").innerHTML = json.meals[0].strMeasure20
-})
+    })
 
 fetch('https://www.themealdb.com/api/json/v1/1/random.php')
     .then(response => response.json())
     .then(json => {
 
-        document.querySelector(".pictureRecette4").style.backgroundImage += "url('" + json.meals[0].strMealThumb + "')"        
+        document.querySelector(".pictureRecette4").style.backgroundImage += "url('" + json.meals[0].strMealThumb + "')"
         document.querySelector(".nameRecette4").innerHTML += json.meals[0].strMeal
 
         document.querySelector(".ingredients61").innerHTML = json.meals[0].strIngredient1
@@ -195,13 +195,13 @@ fetch('https://www.themealdb.com/api/json/v1/1/random.php')
         document.querySelector(".dosage78").innerHTML = json.meals[0].strMeasure18
         document.querySelector(".dosage79").innerHTML = json.meals[0].strMeasure19
         document.querySelector(".dosage80").innerHTML = json.meals[0].strMeasure20
-})
+    })
 
 fetch('https://www.themealdb.com/api/json/v1/1/random.php')
     .then(response => response.json())
     .then(json => {
 
-        document.querySelector(".pictureRecette5").style.backgroundImage += "url('" + json.meals[0].strMealThumb + "')"        
+        document.querySelector(".pictureRecette5").style.backgroundImage += "url('" + json.meals[0].strMealThumb + "')"
         document.querySelector(".nameRecette5").innerHTML += json.meals[0].strMeal
 
         document.querySelector(".ingredients81").innerHTML = json.meals[0].strIngredient1
@@ -245,13 +245,13 @@ fetch('https://www.themealdb.com/api/json/v1/1/random.php')
         document.querySelector(".dosage98").innerHTML = json.meals[0].strMeasure18
         document.querySelector(".dosage99").innerHTML = json.meals[0].strMeasure19
         document.querySelector(".dosage100").innerHTML = json.meals[0].strMeasure20
-})
+    })
 
 fetch('https://www.themealdb.com/api/json/v1/1/random.php')
     .then(response => response.json())
     .then(json => {
 
-        document.querySelector(".pictureRecette6").style.backgroundImage += "url('" + json.meals[0].strMealThumb + "')"        
+        document.querySelector(".pictureRecette6").style.backgroundImage += "url('" + json.meals[0].strMealThumb + "')"
         document.querySelector(".nameRecette6").innerHTML += json.meals[0].strMeal
 
         document.querySelector(".ingredients101").innerHTML = json.meals[0].strIngredient1
@@ -295,13 +295,13 @@ fetch('https://www.themealdb.com/api/json/v1/1/random.php')
         document.querySelector(".dosage118").innerHTML = json.meals[0].strMeasure18
         document.querySelector(".dosage119").innerHTML = json.meals[0].strMeasure19
         document.querySelector(".dosage120").innerHTML = json.meals[0].strMeasure20
-})
+    })
 
 fetch('https://www.themealdb.com/api/json/v1/1/random.php')
     .then(response => response.json())
     .then(json => {
 
-        document.querySelector(".pictureRecette7").style.backgroundImage += "url('" + json.meals[0].strMealThumb + "')"        
+        document.querySelector(".pictureRecette7").style.backgroundImage += "url('" + json.meals[0].strMealThumb + "')"
         document.querySelector(".nameRecette7").innerHTML += json.meals[0].strMeal
 
         document.querySelector(".ingredients121").innerHTML = json.meals[0].strIngredient1
@@ -345,13 +345,13 @@ fetch('https://www.themealdb.com/api/json/v1/1/random.php')
         document.querySelector(".dosage138").innerHTML = json.meals[0].strMeasure18
         document.querySelector(".dosage139").innerHTML = json.meals[0].strMeasure19
         document.querySelector(".dosage140").innerHTML = json.meals[0].strMeasure20
-})
+    })
 
 fetch('https://www.themealdb.com/api/json/v1/1/random.php')
     .then(response => response.json())
     .then(json => {
 
-        document.querySelector(".pictureRecette8").style.backgroundImage += "url('" + json.meals[0].strMealThumb + "')"        
+        document.querySelector(".pictureRecette8").style.backgroundImage += "url('" + json.meals[0].strMealThumb + "')"
         document.querySelector(".nameRecette8").innerHTML += json.meals[0].strMeal
 
         document.querySelector(".ingredients141").innerHTML = json.meals[0].strIngredient1
@@ -395,4 +395,43 @@ fetch('https://www.themealdb.com/api/json/v1/1/random.php')
         document.querySelector(".dosage158").innerHTML = json.meals[0].strMeasure18
         document.querySelector(".dosage159").innerHTML = json.meals[0].strMeasure19
         document.querySelector(".dosage160").innerHTML = json.meals[0].strMeasure20
-})
+    })
+
+    // je m'occupe de ma section 2
+
+fetch('https://www.themealdb.com/api/json/v1/1/random.php')
+    .then(response => response.json())
+    .then(json => {
+        document.querySelector(".imgRecettePref").style.backgroundImage = "url('" + json.meals[0].strMealThumb + "')"
+        document.querySelector(".nomRecettePref").innerHTML = json.meals[0].strMeal
+    })
+
+fetch('https://www.themealdb.com/api/json/v1/1/random.php')
+    .then(response => response.json())
+    .then(json => {
+        document.querySelector(".imgRecettePref2").style.backgroundImage = "url('" + json.meals[0].strMealThumb + "')"
+        document.querySelector(".nomRecettePref2").innerHTML = json.meals[0].strMeal
+    })
+
+fetch('https://www.themealdb.com/api/json/v1/1/random.php')
+    .then(response => response.json())
+    .then(json => {
+        document.querySelector(".imgRecettePref3").style.backgroundImage = "url('" + json.meals[0].strMealThumb + "')"
+        document.querySelector(".nomRecettePref3").innerHTML = json.meals[0].strMeal
+    })
+
+
+
+fetch('https://www.themealdb.com/api/json/v1/1/filter.php?i=chicken')
+    .then(response => response.json())
+    .then( json => {
+        document.querySelector(".nomViandePref").innerHTML = json.meals[0].strMeal
+        document.querySelector(".imgViandePref").style.backgroundImage = "url('" + json.meals[0].strMealThumb + "')"
+    })
+
+fetch('https://www.themealdb.com/api/json/v1/1/filter.php?c=Seafood')
+    .then(response => response.json())
+    .then(json => {
+        document.querySelector(".nomViandePref2").innerHTML = json.meals[0].strMeal
+        document.querySelector(".imgViandePref2").style.backgroundImage = "url('" + json.meals[0].strMealThumb + "')"
+    })

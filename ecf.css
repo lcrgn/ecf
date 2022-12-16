@@ -3,6 +3,10 @@ body {
     flex-direction: column;
 }
 
+@media screen {
+    max-width: 1250px;
+}
+
 /* style de mon header */
 
 header {
@@ -60,8 +64,8 @@ li {
 }
 
 .intro {
-    padding-bottom: 35%;
-    margin-left: 35%;
+    margin-bottom: 35%;
+    margin-left: 20%;
     color: #FF6F61;
     z-index: 100;
     background-color: #fff;
@@ -87,10 +91,12 @@ h1 {
 
 .mesQuatre {
     display: flex;
+    min-width: 100%;
 }
 
 
 .monVisu {
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -98,6 +104,7 @@ h1 {
     margin-right: 1%;
     padding-bottom: 1%;
     width: 20%;
+
 }
 
 .nameRecette {
@@ -107,6 +114,9 @@ h1 {
     border-radius: 3px;
     color: #FF6F61;
     text-align: center;
+    width: 50%;
+    margin-bottom: 2%;
+    display: flex;
 }
 
 .pictureRecette {
@@ -142,6 +152,11 @@ h1 {
     text-align: center;
 }
 
+
+.mesIntitus {
+    background-color: #fff;
+}
+
 /* style de ma deuxieme section */
 
 h2 {
@@ -161,7 +176,19 @@ h2 {
 }
 
 .separation {
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid rgb(170, 169, 169);
+}
+
+.recettesPreferees {
+    margin: 2%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.viandesPref {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
 }
 
 
