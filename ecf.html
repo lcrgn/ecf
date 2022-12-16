@@ -30,7 +30,8 @@
 
     </header>
 
-    <section>
+
+    <section id="sec1">
 
         <img class="imageFond" src="./cuisine.jpg"
             alt="plan de travail de cuisine avec un ordinateur proposant une recette et les ustenciles / ingrédients à c oté">
@@ -41,6 +42,7 @@
     </section>
 
     <section>
+        <p id="disclamer">Mangez au moins 5 fruits et légumes par jour</p>
 
         <h1>Recettes</h1>
 
@@ -502,7 +504,7 @@
 
     <section id="sec2">
 
-        <h2>Vos recettes et viandes préférées</h2>
+        <h2>Vos recettes et viandes préférées du MOIS</h2>
 
         <div class="separation"></div>
         <div class="titre">
@@ -576,7 +578,9 @@
             <div class="zoneMessage">
 
                 <div class="intitule">Message</div>
-                <input type="text">
+
+                <!-- text area permet de revenir à la ligne (alors que input met tout sur une seule ligne) -->
+              <textarea name="" id="" cols="30" rows="10"></textarea>
             </div>
 
             <button id="submit">Envoyer</button>

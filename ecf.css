@@ -3,7 +3,11 @@ body {
     flex-direction: column;
 }
 
-
+#disclamer{
+    text-align: center;
+    font-size: smaller;
+    color: #FF6F61;
+}
 
 /* style de mon header */
 
@@ -29,7 +33,7 @@ ul {
 
 li {
     display: flex;
-    margin-left: 30%;
+    margin-left: 1rem;
     color: #FF6F61;
     font-size: large;
     font-weight: bold;
@@ -252,4 +256,50 @@ footer {
     color: #fff;
     font-size: x-small;
 }
+
+@media screen and (max-width:900px) {
+    #sec12 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #btnRecette{
+        font-size: smaller;    }
+
+    .mesQuatre {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .monVisu {
+        display: flex;
+        width: 40%;
+    }
+
+}
+
+
+
+@media screen and (max-width:500px) {
+
+    .mesQuatre {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    #btnRecette{
+font-size: smaller;    }
+
+    .monVisu {
+        display: flex;
+        width: 50%;
+        margin: 1rem;
+    }
+
+}
+
 
